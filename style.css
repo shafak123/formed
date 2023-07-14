@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+
+
+.art, .bart, .cart{
+    display: flex;
+}
+
+.one{
+    display:flex;
+    font-weight:bold;
+    margin-top: 10px;
+    background-color: rgb(130, 130, 240);
+    font-size: 25px;
+    margin: 10px;
+    text-align: center; 
+   
+}
+.one p:hover  {
+    color: aqua;
+}
+.one p{
+    padding: 20px;
+    
+}
+.col-4 h1:hover{
+    color: chartreuse;
+}
+
+.two{
+    text-align: right;
+    
+}
+    
+/* .col-4 img{
+    height: 400px;
+    width: 200px;
+} */
+ button{
+    background-color: rgb(0, 0, 0); 
+    border: none;
+    border-radius: 10px;
+    color: rgb(245, 239, 239);
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px dotted black;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+   
+    
+}
+button:hover{
+    color: rgb(206, 8, 8);
+} 
+
+
+img{
+    border-radius: 5px;
+    margin: 10px;
+}
+
+ /* .flut{
+    display: flex;
+    font-weight: bold;
+
+}
+
+.flut a{
+    margin: 10px;
+    text-decoration: none;
+    color: blue;
+}  */
+
+
+p{
+    margin: 10px;
+}
+
+.art img, .bart img, .cart img{
+    height: 200px;
+    width: 200px;
+}
+.col-6 img {
+    height: 200px;
+    width: 500px;
+}
+.col-6 h1:hover{
+    color: rgb(241, 10, 10); 
+}
+/* body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+} */
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 175%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 3% 0;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1%;
+}
+
+p{
+    padding: 2%;
+    text-align: justify;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+
+.lone{
+    margin: 2% 0 3% 4%;
+    width: 44%;
+    float: left;
+    text-align: center;
+    font-weight: bolder;
+}
+.lone:hover{
+    background-color: rgb(132, 132, 240);
+    border-radius: 5px
+}
+
+.cone:hover{
+    background-color: rgb(130, 132, 240);
+    border-radius: 5px;
+}
+.cone{
+    margin: 2% 0 3% 4%;
+    width: 44%;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+}
+.a{
+    margin: 2% 0 3% 4%;
+    width: 28%;
+    float: left;
+    text-align: center;
+}
+
+.l{
+    margin: 4% 0 4% 4%;
+    width: 60%;
+    float: left;
+
+}
+.l p{
+    font-weight: bold;
+}
+
+.c{
+    width: 26%;
+    float: right;
+    margin: 4%;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    display: flex;
+    color: white;
+    justify-content: center;
+   
+}
+
+
+
+
+
